@@ -1,22 +1,26 @@
 {
     "displayName": "Astron modmail",
-  "license": "AGPL-3.0 license",
-  "description": "Astron is the primary bot of the Astron Collection — a modular suite of advanced Discord applications.",
-  "author": "Sky Genesis Enterprise",
-  "email": "contact@skygenesisenterprise.com",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Sky-Genesis-Enterprise/astron-modmail.git"
-  },
-
-  "bugs": {
-    "url": "https://github.com/Sky-Genesis-Enterprise/astron-modmail/issues"
-  },
-  "homepage": "https://github.com/Sky-Genesis-Enterprise/astron-modmail#readme"
+    "license": "AGPL-3.0 license",
+    "description": "Astron is the primary bot of the Astron Collection — a modular suite of advanced Discord applications.",
+    "author": "Sky Genesis Enterprise",
+    "email": "contact@skygenesisenterprise.com",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Sky-Genesis-Enterprise/astron-modmail.git"
+    },
+    "bugs": {
+        "url": "https://github.com/Sky-Genesis-Enterprise/astron-modmail/issues"
+    },
+    "homepage": "https://github.com/Sky-Genesis-Enterprise/astron-modmail#readme",
+    "dependencies": {
+        "discord.js": "^14.21.0",
+        "dotenv": "^17.2.0",
+        "fs": "^0.0.1-security"
+    }
 }
